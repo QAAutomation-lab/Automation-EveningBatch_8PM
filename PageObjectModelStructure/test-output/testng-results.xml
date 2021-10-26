@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10706" started-at="2021-10-26T20:35:20 IST" finished-at="2021-10-26T20:35:31 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10706" started-at="2021-10-26T20:35:20 IST" finished-at="2021-10-26T20:35:31 IST">
+      <class name="webScripts.BrowserStackSetup">
+        <test-method status="PASS" signature="setup()[pri:0, instance:webScripts.BrowserStackSetup@77f99a05]" name="setup" is-config="true" duration-ms="6751" started-at="2021-10-26T20:35:20 IST" finished-at="2021-10-26T20:35:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="navigate_to_homepage_click_on_getstarted()[pri:1, instance:webScripts.BrowserStackSetup@77f99a05]" name="navigate_to_homepage_click_on_getstarted" duration-ms="3279" started-at="2021-10-26T20:35:27 IST" finished-at="2021-10-26T20:35:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_to_homepage_click_on_getstarted -->
+        <test-method status="PASS" signature="enter_userDetails()[pri:2, instance:webScripts.BrowserStackSetup@77f99a05]" name="enter_userDetails" duration-ms="515" started-at="2021-10-26T20:35:30 IST" finished-at="2021-10-26T20:35:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_userDetails -->
+      </class> <!-- webScripts.BrowserStackSetup -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

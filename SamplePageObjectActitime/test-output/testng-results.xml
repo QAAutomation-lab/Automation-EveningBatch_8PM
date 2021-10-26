@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11920" started-at="2021-10-26T21:16:56 IST" finished-at="2021-10-26T21:17:07 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="11920" started-at="2021-10-26T21:16:56 IST" finished-at="2021-10-26T21:17:07 IST">
+      <class name="testscripts.TestBrowserStackSetup">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testscripts.TestBrowserStackSetup@87f383f]" name="setup" is-config="true" duration-ms="7088" started-at="2021-10-26T21:16:56 IST" finished-at="2021-10-26T21:17:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_navigate_to_homepage_click_on_getstarted()[pri:1, instance:testscripts.TestBrowserStackSetup@87f383f]" name="test_navigate_to_homepage_click_on_getstarted" duration-ms="3741" started-at="2021-10-26T21:17:03 IST" finished-at="2021-10-26T21:17:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_navigate_to_homepage_click_on_getstarted -->
+        <test-method status="PASS" signature="test_enter_userDetails()[pri:2, instance:testscripts.TestBrowserStackSetup@87f383f]" name="test_enter_userDetails" duration-ms="494" started-at="2021-10-26T21:17:07 IST" finished-at="2021-10-26T21:17:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_enter_userDetails -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:testscripts.TestBrowserStackSetup@87f383f]" name="cleanUp" is-config="true" duration-ms="449" started-at="2021-10-26T21:17:07 IST" finished-at="2021-10-26T21:17:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- testscripts.TestBrowserStackSetup -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
