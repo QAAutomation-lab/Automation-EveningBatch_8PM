@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8139" started-at="2021-10-26T15:48:54Z" finished-at="2021-10-26T15:49:02Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8139" started-at="2021-10-26T15:48:54Z" finished-at="2021-10-26T15:49:02Z">
+      <class name="testscripts.TestBrowserStackSetup">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testscripts.TestBrowserStackSetup@4387b79e]" name="setup" is-config="true" duration-ms="4095" started-at="2021-10-26T21:18:54Z" finished-at="2021-10-26T21:18:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_navigate_to_homepage_click_on_getstarted()[pri:1, instance:testscripts.TestBrowserStackSetup@4387b79e]" name="test_navigate_to_homepage_click_on_getstarted" duration-ms="3146" started-at="2021-10-26T21:18:58Z" finished-at="2021-10-26T21:19:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_navigate_to_homepage_click_on_getstarted -->
+        <test-method status="PASS" signature="test_enter_userDetails()[pri:2, instance:testscripts.TestBrowserStackSetup@4387b79e]" name="test_enter_userDetails" duration-ms="519" started-at="2021-10-26T21:19:01Z" finished-at="2021-10-26T21:19:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_enter_userDetails -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:testscripts.TestBrowserStackSetup@4387b79e]" name="cleanUp" is-config="true" duration-ms="362" started-at="2021-10-26T21:19:01Z" finished-at="2021-10-26T21:19:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- testscripts.TestBrowserStackSetup -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
