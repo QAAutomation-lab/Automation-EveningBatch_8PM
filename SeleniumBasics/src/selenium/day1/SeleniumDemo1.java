@@ -1,6 +1,7 @@
 package selenium.day1;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -11,7 +12,7 @@ public class SeleniumDemo1 {
 		System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
 		driver =new FirefoxDriver();
 		driver.get("http://www.google.com");
-		driver.findElement(By.name("q")).sendKeys("selenium");
+		driver.findElement(By.name("q")).sendKeys("selenium",Keys.ENTER);
 		
 //		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 //		driver =new ChromeDriver();
